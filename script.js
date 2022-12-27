@@ -1,5 +1,5 @@
 let playerState = 'idle';//starting animation state on page load
-const dropdown = document.getElementById('animations');//DOM query to impleent the dropdown with animation types
+const dropdown = document.getElementById('animations');//DOM query to implement the dropdown with animation types
 dropdown.addEventListener('change', function(e){
     playerState = e.target.value
 })
@@ -87,3 +87,4 @@ function animate(){
 animate();
 
 // class one complete!
+//https://www.youtube.com/watch?v=GFO_txvwK_c&t=1600s
